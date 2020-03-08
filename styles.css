@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    text-align: center;
+    background-color: #d1e6dc;
+}
+
+h1 {
+    font-family: 'Sanchez', 'serif';
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #14566a;
+    font-size: 60px;
+}
+
+p {
+    text-align: justify;
+    margin-right: 22%;
+    color: #32454f;
+    font-family: 'Lato', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#portrait {
+    width: 71%;
+    border: 5px double #383882;
+}
+
+#right-col {
+    margin-top: -1.1%;
+}
