@@ -61,57 +61,57 @@ a:hover {
 }
 
 .box-link a {
-	padding: 10px 20px;
+    padding: 10px 20px;
 }
 
 .box-link a::before,
 .box-link a::after  {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border: 3px solid #354856;
-	content: '';
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
-	transition: transform 0.3s, opacity 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #354856;
+    content: '';
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
 }
 
 .box-link a::after  {
-	border-color: #fff;
-	opacity: 0;
-	-webkit-transform: translateY(-7px) translateX(6px);
-	-moz-transform: translateY(-7px) translateX(6px);
-	transform: translateY(-7px) translateX(6px);
+    border-color: #fff;
+    opacity: 0;
+    -webkit-transform: translateY(-7px) translateX(6px);
+    -moz-transform: translateY(-7px) translateX(6px);
+    transform: translateY(-7px) translateX(6px);
 }
 
 .box-link a:hover::before,
 .box-link a:focus::before {
-	opacity: 0;
-	-webkit-transform: translateY(5px) translateX(-5px);
-	-moz-transform: translateY(5px) translateX(-5px);
-	transform: translateY(5px) translateX(-5px);
+    opacity: 0;
+    -webkit-transform: translateY(5px) translateX(-5px);
+    -moz-transform: translateY(5px) translateX(-5px);
+    transform: translateY(5px) translateX(-5px);
 }
 
 .box-link a:hover::after,
 .box-link a:focus::after  {
-	opacity: 1;
-	-webkit-transform: translateY(0px) translateX(0px);
-	-moz-transform: translateY(0px) translateX(0px);
-	transform: translateY(0px) translateX(0px);
+    opacity: 1;
+    -webkit-transform: translateY(0px) translateX(0px);
+    -moz-transform: translateY(0px) translateX(0px);
+    transform: translateY(0px) translateX(0px);
 }
 
 section a {
-	position: relative;
-	display: inline-block;
-	margin: 15px 25px;
-	outline: none;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 400;
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
     font-size: 1.35em;
     background-color: #c7d9b5;
 }
